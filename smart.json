@@ -1,0 +1,8 @@
+{
+  "packages": {
+    "timesync": {
+        "git": "https://github.com/danieljonce/meteor-timesync.git"
+    },
+    "moment": {}
+  }
+}

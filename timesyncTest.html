@@ -1,0 +1,13 @@
+<head>
+  <title>TimeSync Test</title>
+</head>
+
+<body>
+    {{> displayServerTime}}
+</body>
+
+<template name="displayServerTime">
+    <h2>The server time is:</h2>
+    {{formatTime serverTime 'clock'}}
+    <p>Change 3</p>
+</template>

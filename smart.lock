@@ -1,0 +1,24 @@
+{
+  "meteor": {},
+  "dependencies": {
+    "basePackages": {
+      "timesync": {
+        "git": "https://github.com/danieljonce/meteor-timesync.git",
+        "branch": "master"
+      },
+      "moment": {}
+    },
+    "packages": {
+      "timesync": {
+        "git": "https://github.com/danieljonce/meteor-timesync.git",
+        "branch": "master",
+        "commit": "3902c9f231e9b739cffb1f77c9346a1bf78bf63a"
+      },
+      "moment": {
+        "git": "https://github.com/acreeger/meteor-moment.git",
+        "tag": "v2.5.1",
+        "commit": "8c9bc5d3fc96705057737cb9743d555417f6e551"
+      }
+    }
+  }
+}
